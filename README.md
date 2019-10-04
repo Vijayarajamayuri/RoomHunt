@@ -9,8 +9,8 @@ Room Hunt is regarding the availability of rooms in Horizons West Apartment for 
   </ul>
 Team Members:
 <ol>
-  <li>.	Vijaya Raja Mayuri, Akula </li>
-<li>.	Bhavani ,Pathuri </li>
-<li>.	Farheen,Mohammad </li>
-<li>.	Satish,Hiru Gadge </li>
+  <li>	Vijaya Raja Mayuri, Akula </li>
+<li>	Bhavani ,Pathuri </li>
+<li>	Farheen,Mohammad </li>
+<li>	Satish,Hiru Gadge </li>
   </ol>
