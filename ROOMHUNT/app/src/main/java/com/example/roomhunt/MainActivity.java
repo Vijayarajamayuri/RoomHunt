@@ -18,9 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         addListenerOnButton();
         addListenerOnButton1();
-        addListenerOnButton2();
+
 
     }
+
     private void addListenerOnButton() {
         final Context context = this;
         Button owner = findViewById(R.id.button3);
@@ -28,11 +29,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, owner.class);
-                    startActivity(intent);
+                startActivity(intent);
             }
         });
     }
-    public void addListenerOnButton1(){
+
+    public void addListenerOnButton1() {
         final Context context = this;
         Button signup = findViewById(R.id.button);
         signup.setOnClickListener(new View.OnClickListener() {
@@ -43,16 +45,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void addListenerOnButton2(){
-        final Context context = this;
-        Button signup = findViewById(R.id.button);
-        signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, userlogin.class);
-                startActivity(intent);
-
-    }
-    }
-    }
-
+}
