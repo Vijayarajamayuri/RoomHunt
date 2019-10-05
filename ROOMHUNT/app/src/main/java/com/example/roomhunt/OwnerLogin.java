@@ -2,6 +2,7 @@ package com.example.roomhunt;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,13 +14,45 @@ public class OwnerLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_owner_login2);
-        Button ownerlogin = findViewById(R.id.button20);
-        ownerlogin.setOnClickListener(new View.OnClickListener() {
+        addListenerOnButton2();
+        addListenerOnButton3();
+        addListenerOnButton4();
+    }
+
+    private void addListenerOnButton2() {
+        final Context context = this;
+        Button block = findViewById(R.id.button20);
+        block.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OwnerLogin.this, Blocks.class);
-                startActivity(intent);
+                Intent in = new Intent(context, Blocks.class);
+                startActivity(in);
+            }
+        });
+    }
+
+    public void addListenerOnButton3() {
+        final Context context = this;
+        Button blockB = findViewById(R.id.button21);
+        blockB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(context, BlockB.class);
+                startActivity(i);
+            }
+        });
+    }
+
+    public void addListenerOnButton4() {
+        final Context context = this;
+        Button blockB = findViewById(R.id.button22);
+        blockB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(context, BlockC.class);
+                startActivity( intent);
             }
         });
     }
 }
+
