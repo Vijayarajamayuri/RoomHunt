@@ -96,15 +96,15 @@
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="636dp"
-        android:layout_height="61dp"
+        android:layout_width="288dp"
+        android:layout_height="157dp"
         android:fontFamily="@font/bungee"
         android:text="List of blocks and Availabilities"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.072" />
+        app:layout_constraintVertical_bias="0.046" />
 </androidx.constraintlayout.widget.ConstraintLayout>

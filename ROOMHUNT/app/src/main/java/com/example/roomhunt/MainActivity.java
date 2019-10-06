@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         addListenerOnButton();
         addListenerOnButton1();
         addListenerOnButton2();
+        addListenerOnButton3();
 
 
     }
@@ -54,6 +55,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, user_login.class);
+                startActivity(intent);
+            }
+        });
+    }
+    public void addListenerOnButton3() {
+        final Context context = this;
+        Button fp = findViewById(R.id.button6);
+        fp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, ForgotPassword.class);
                 startActivity(intent);
             }
         });
