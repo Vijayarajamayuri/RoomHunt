@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         addListenerOnButton();
         addListenerOnButton1();
+        addListenerOnButton2();
 
 
     }
@@ -41,6 +42,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, SignUp.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    public void addListenerOnButton2() {
+        final Context context = this;
+        Button signup = findViewById(R.id.button2);
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, user_login.class);
                 startActivity(intent);
             }
         });
