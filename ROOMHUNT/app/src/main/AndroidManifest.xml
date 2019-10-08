@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Blockf"></activity>
+        <activity android:name=".Feedback"></activity>
+        <activity android:name=".Blockf" />
         <activity android:name=".Blocke" />
         <activity android:name=".Blockd" />
         <activity android:name=".Specications" />
