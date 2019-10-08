@@ -25,11 +25,11 @@ Contributions:
   <li>Satish,Hiru Gadge
   </li>-
  Activities Involved:
- Login Activity: The first page of the Room Hunt Android application consists of a Login activity where the users can login and new users can sign up regarding room information and if the registered user forgets the password  he/she can click the “forgot password” redirecting to another activity called “trouble Logging in” where user can reset password by entering recovery “Email ID” or “phone number” and by clicking the “send login link” the link is send to respective email ID or phone number.Then,after resetting the password we can go back to login page
+ Login Activity: The first page is login and new users can sign up regarding room information and if the registered user forgets the password  he/she can click the “forgot password” redirecting to another activity called “trouble Logging in” where user can reset password by entering recovery “Email ID” or “phone number” and by clicking the “send login link” the link is send to respective email ID or phone number.Then,after resetting the password we can go back to login page
  
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/1.png)
  
-Owner Login: In the Homepage by clicking the “Owner Login” the activity gets directed to “Owner Login” activity where the owner needs to provide the credentials and get logged in. By clicking on Login in owner activity the “Details” tabbed activity is redirected. The necessary information is filled accordingly and updated to the database. The information is used in accordingly to the user convenience.
+Owner Login: In the Homepage by clicking the “Owner Login” the activity gets directed to “Owner Login” activity where the owner needs to provide the credentials and get logged in. By clicking on Login in owner activity the “Details” tabbed activity is redirected. The necessary information is filled accordingly and updated to the database. This info i have used accordingly.
 
 
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/2.png)
