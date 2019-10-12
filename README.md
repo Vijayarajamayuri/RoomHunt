@@ -57,5 +57,32 @@ Firstly, When the user signup and login to the page it will be redirected to the
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/9.png)
 
 
+
+By selecting the shared room in the above tabbed activity another activity called “Shared Room” Is opened as below :
+
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/10.png)
+
+
+By selecting the Private Room the tabbed activity named “Private Room” is opened which consists of Single, Double and other specification
+
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/11.png)
+
+By applying to other another activity named “other” is opened where user can give their preferences and specifications. This data is taken and the suitable rooms are searched accordingly by using the word search mechanism.
+
+
+
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/12.png)
+
+
+The feedback page is opened after every activity’s final click of “Apply” is clicked. For more queries the user can contact to specified email id.
+
+
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/13.png)
+
+
+Database Requirements:
+The data uploaded by the owner like number of vacancies, apartment number, type of room and user responses like selecting room are stored into cloud database.
+
+
   
   
