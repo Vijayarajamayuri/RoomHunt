@@ -29,12 +29,33 @@ Contributions:
  
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/1.png)
  
+ 
+  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/6.png)
+  
+  
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/5.png)
+ 
 Owner Login: In the Homepage by clicking the “Owner Login” the activity gets directed to “Owner Login” activity where the owner needs to provide the credentials and get logged in. By clicking on Login in owner activity the “Details” tabbed activity is redirected. The necessary information is filled accordingly and updated to the database. This info i have used accordingly.
 
 
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/2.png)
-  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/6.png)
+
+
+ ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/3.png)
+ 
+ 
+  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/4.png)
+ 
+ 
+Firstly, When the user signup and login to the page it will be redirected to the Horizons West Apartment page. By selecting “Availability” ,a tabbed activity named “Availability” is opened which specifies total no.of rooms available,no.of shared rooms available and no.of private rooms available.We get all this information which is stored in the database that is uploaded to cloud.
+
+  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/7.png)
   
-  
+  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/8.png)
+    
+    
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/9.png)
+
+
   
   
