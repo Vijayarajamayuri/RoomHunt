@@ -21,9 +21,9 @@ Contributions:
   <li> Farheen,Mohammad 
   </li>-Works with the list of Blocks and Block in detail with rooms
   <li>Vijaya Raja Mayuri, Akula 
-  </li>-
+  </li>-Works With user login,forgot password and creating new user account,Shared room and private room  
   <li>Satish,Hiru Gadge
-  </li>-
+  </li>- Works with Workspace xml
  Activities Involved:
  Login Activity: The first page is login and new users can sign up regarding room information and if the registered user forgets the password  he/she can click the “forgot password” redirecting to another activity called “trouble Logging in” where user can reset password by entering recovery “Email ID” or “phone number” and by clicking the “send login link” the link is send to respective email ID or phone number.Then,after resetting the password we can go back to login page
  
