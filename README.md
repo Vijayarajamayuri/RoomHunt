@@ -71,7 +71,7 @@ By applying to other another activity named “other” is opened where user can
 
 
 
-   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/13.png)
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/13.PNG)
 
 
 The feedback page is opened after every activity’s final click of “Apply” is clicked. For more queries the user can contact to specified email id.
