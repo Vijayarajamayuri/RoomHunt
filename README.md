@@ -48,33 +48,30 @@ Owner Login: In the Homepage by clicking the “Owner Login” the activity gets
  
  
   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/7.PNG)
+  
  
  
 Firstly, When the user signup and login to the page it will be redirected to the Horizons West Apartment page. By selecting “Availability” ,a tabbed activity named “Availability” is opened which specifies total no.of rooms available,no.of shared rooms available and no.of private rooms available.We get all this information which is stored in the database that is uploaded to cloud.
-
-  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/8.PNG)
-  
-  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/6.PNG)
-    
-    
-   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/7.PNG)
 
 
 
 By selecting the shared room in the above tabbed activity another activity called “Shared Room” Is opened as below :
 
-   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/10.png)
+![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/8.PNG)
+![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/9.PNG)
+ ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/10.PNG)
+   
 
 
 By selecting the Private Room the tabbed activity named “Private Room” is opened which consists of Single, Double and other specification
 
-   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/9.PNG)
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/12.PNG)
 
-By applying to other another activity named “other” is opened where user can give their preferences and specifications. This data is taken and the suitable rooms are searched accordingly by using the word search mechanism.
+By applying to other another activity named “other” is opened where user can give their preferences and specifications. This data is taken and the suitable rooms are searched accordingly.
 
 
 
-   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/12.png)
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/13.png)
 
 
 The feedback page is opened after every activity’s final click of “Apply” is clicked. For more queries the user can contact to specified email id.
