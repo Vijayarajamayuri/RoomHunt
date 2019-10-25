@@ -112,4 +112,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.961" />
 
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="161dp"
+        android:layout_height="64dp"
+        android:text="Enter the login credentials"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
