@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ROOMHUNT/app/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/ROOMHUNT/app/src/androidTest/androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ROOMHUNT/app/src/main/main.iml" filepath="$PROJECT_DIR$/ROOMHUNT/app/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ROOMHUNT/app/src/test/test.iml" filepath="$PROJECT_DIR$/ROOMHUNT/app/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RoomHunt.iml" filepath="$PROJECT_DIR$/RoomHunt.iml" />
     </modules>
   </component>
 </project>

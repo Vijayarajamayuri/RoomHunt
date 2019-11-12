@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "36263893342",
+    "firebase_url": "https://roomhunt-d12be.firebaseio.com",
+    "project_id": "roomhunt-d12be",
+    "storage_bucket": "roomhunt-d12be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36263893342:android:5f070f937d62b5245f57cf",
+        "android_client_info": {
+          "package_name": "com.example.login2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36263893342-utr6k7hr2ggi7ube4bi5tmei94une2i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAb1sIZMqm876RPu4yi_Tt6a0HDXfES2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36263893342-utr6k7hr2ggi7ube4bi5tmei94une2i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36263893342:android:f7fa2049ff10a0675f57cf",
+        "android_client_info": {
+          "package_name": "com.example.roomhunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36263893342-qnaj98crd9voutjp6hnrt6g0lbri89qn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roomhunt",
+            "certificate_hash": "280969e0751478fb0de19119ad591ca0d20e245e"
+          }
+        },
+        {
+          "client_id": "36263893342-utr6k7hr2ggi7ube4bi5tmei94une2i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAb1sIZMqm876RPu4yi_Tt6a0HDXfES2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36263893342-utr6k7hr2ggi7ube4bi5tmei94une2i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36263893342:android:e0ed43ab35ecf9105f57cf",
+        "android_client_info": {
+          "package_name": "info.andriodrm.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36263893342-utr6k7hr2ggi7ube4bi5tmei94une2i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAb1sIZMqm876RPu4yi_Tt6a0HDXfES2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36263893342-utr6k7hr2ggi7ube4bi5tmei94une2i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
