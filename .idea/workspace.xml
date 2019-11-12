@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4964189-bfb9-4906-a3ca-e5b5d8a9719f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ROOMHUNT/app/google-services.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/Registration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/drawable-v24/logo.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_registration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
