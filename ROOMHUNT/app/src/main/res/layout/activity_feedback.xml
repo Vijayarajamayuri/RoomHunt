@@ -9,10 +9,11 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="385dp"
+        android:layout_height="61dp"
         android:fontFamily="@font/bungee"
         android:text="Thank you for your interest"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,15 +35,15 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="320dp"
+        android:layout_height="57dp"
         android:fontFamily="sans-serif"
         android:text="For more information or queries mail to avrmayuri74@gmail.com"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.847" />
+        app:layout_constraintVertical_bias="0.857" />
 </androidx.constraintlayout.widget.ConstraintLayout>
