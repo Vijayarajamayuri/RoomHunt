@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4964189-bfb9-4906-a3ca-e5b5d8a9719f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_register.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/Register.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +219,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ROOMHUNT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FirebaseDemo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
