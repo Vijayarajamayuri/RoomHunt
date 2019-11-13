@@ -16,6 +16,7 @@ public class owner extends AppCompatActivity {
     private TextView Info;
     private Button Click;
     private int Counter=5;
+    Button forgot;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class owner extends AppCompatActivity {
         Password=(EditText)findViewById(R.id.editText4);
         Info=(TextView)findViewById(R.id.textView14);
 
+
         Button ownerlogin = findViewById(R.id.button4);
         Info.setText("Enter the login credentials");
 
@@ -32,8 +34,9 @@ public class owner extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 validate(Name.getText().toString(),Password.getText().toString());
+          forgot=findViewById(R.id.button5);
 
-                //  Intent intent = new Intent(owner.this, OwnerLogin.class);
+                //  Intent intent = new Intent(owner.this, Forg.class);
                 // startActivity(intent);
                 //intent creations
             }
@@ -54,6 +57,17 @@ public class owner extends AppCompatActivity {
                 Click.setEnabled(false);
             }
         }
+    }
+    private void addListenerOnButton5() {
+        final Context context = this;
+        Button pr = findViewById(R.id.button11);
+        pr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, PrivateRoom.class);
+                startActivity(intent);
+            }
+        });
     }
 }
 

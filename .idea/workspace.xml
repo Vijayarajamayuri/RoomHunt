@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4964189-bfb9-4906-a3ca-e5b5d8a9719f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_availability.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_availability.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_blocks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_blocks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_feedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_feedback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/owner.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
