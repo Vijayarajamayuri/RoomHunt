@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_light_focused"
     tools:context=".SharedRoom">
 
     <TextView
@@ -50,8 +51,8 @@
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="138dp"
-        android:layout_height="67dp"
+        android:layout_width="124dp"
+        android:layout_height="46dp"
         android:fontFamily="@font/bungee"
         android:text="APPLY"
         android:textSize="24sp"
@@ -64,8 +65,8 @@
 
     <Button
         android:id="@+id/button15"
-        android:layout_width="138dp"
-        android:layout_height="67dp"
+        android:layout_width="116dp"
+        android:layout_height="55dp"
         android:fontFamily="@font/bungee"
         android:text="APPLY"
         android:textSize="24sp"

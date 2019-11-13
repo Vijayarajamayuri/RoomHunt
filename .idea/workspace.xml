@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4964189-bfb9-4906-a3ca-e5b5d8a9719f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_new_userforgot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_new_userforgot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_owner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_owner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_owner_login2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_owner_login2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_private_room.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_private_room.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_shared_room.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_shared_room.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_specications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_specications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_user_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_user_login.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_owner_login2.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="526">
-              <caret line="197" selection-start-line="7" selection-end-line="197" />
+              <caret line="198" selection-start-line="8" selection-end-line="198" />
             </state>
           </provider>
         </entry>
@@ -394,7 +403,7 @@
     <entry file="file://$PROJECT_DIR$/ROOMHUNT/app/src/main/res/layout/activity_owner_login2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
-          <caret line="197" selection-start-line="7" selection-end-line="197" />
+          <caret line="198" selection-start-line="8" selection-end-line="198" />
         </state>
       </provider>
     </entry>
