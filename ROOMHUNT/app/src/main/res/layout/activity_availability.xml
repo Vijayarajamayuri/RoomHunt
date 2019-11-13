@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_light_focused"
     tools:context=".Availability">
 
     <TextView
@@ -119,5 +120,5 @@
         app:layout_constraintVertical_bias="0.697" />
 
 
-//button action
+    //button action
 </androidx.constraintlayout.widget.ConstraintLayout>
