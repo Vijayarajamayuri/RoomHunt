@@ -81,7 +81,7 @@ The feedback page is opened after every activity’s final click of “Apply” 
 
 
 Database Requirements:
-The data uploaded by the owner like number of vacancies, apartment number, type of room and user responses like selecting room are stored into cloud database.
+The data uploaded by the owner like number of vacancies, apartment number, type of room and user responses like selecting room are stored into cloud database  like firebase .The authentication is done by firebase.
 
 
   
