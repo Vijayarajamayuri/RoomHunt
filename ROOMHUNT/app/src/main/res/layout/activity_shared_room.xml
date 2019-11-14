@@ -51,30 +51,58 @@
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="124dp"
-        android:layout_height="46dp"
-        android:fontFamily="@font/bungee"
-        android:text="APPLY"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.825"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
-
-    <Button
-        android:id="@+id/button15"
         android:layout_width="116dp"
         android:layout_height="55dp"
         android:fontFamily="@font/bungee"
         android:text="APPLY"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542" />
+        app:layout_constraintVertical_bias="0.384" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:fontFamily="@font/bungee"
+        android:text="APPLY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="125dp"
+        android:layout_height="75dp"
+        android:fontFamily="@font/bungee"
+        android:text="Other"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="116dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/bungee"
+        android:text="APPLY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639"
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4964189-bfb9-4906-a3ca-e5b5d8a9719f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ROOMHUNT/app/src/main/java/com/example/roomhunt/owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -247,7 +247,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30181542" />

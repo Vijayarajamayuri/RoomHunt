@@ -20,7 +20,7 @@ public class image extends AppCompatActivity{
     }
     private void addListenerOnButton6() {
         final Context context = this;
-        Button sr = findViewById(R.id.button10);
+        Button sr = findViewById(R.id.button11);
         sr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -32,7 +32,7 @@ public class image extends AppCompatActivity{
 
     private void addListenerOnButton7() {
         final Context context = this;
-        Button pr = findViewById(R.id.button11);
+        Button pr = findViewById(R.id.button10);
         pr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
