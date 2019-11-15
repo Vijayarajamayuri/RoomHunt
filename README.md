@@ -84,5 +84,7 @@ Database Requirements:
 The data uploaded by the owner like number of vacancies, apartment number, type of room and user responses like selecting room are stored into cloud database  like firebase .The authentication is done by firebase.
 
 
+We are collectively working on roomhunt application.This is the application in which users can register,search and apply for the rooms according to their specifications even from the remote location.Once the user opens the roomhunt website,gets started and logins to the application . 
+
   
   
