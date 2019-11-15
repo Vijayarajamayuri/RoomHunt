@@ -18,19 +18,30 @@ import java.util.Map;
 public class Blocks extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blocks);
-
+        addListenerOnApt1();
     }
+
 
     private void addListenerOnApt1() {
 
+        final Context context = this;
+        Button apt1 = findViewById(R.id.apt1);
 
+        apt1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                Intent intent = new Intent(context, Apt1.class);
+                startActivity(intent);
             }
-        }
+        });
+    }
+}
 
 
 
