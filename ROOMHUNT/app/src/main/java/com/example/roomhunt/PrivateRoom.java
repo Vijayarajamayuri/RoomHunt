@@ -12,11 +12,8 @@ import android.widget.Button;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -93,7 +90,7 @@ public class PrivateRoom extends AppCompatActivity {
     }
     private void addListenerOnButton3() {
         final Context context = this;
-        Button other = findViewById(R.id.button14);
+        Button other = findViewById(R.id.single);
         other.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
