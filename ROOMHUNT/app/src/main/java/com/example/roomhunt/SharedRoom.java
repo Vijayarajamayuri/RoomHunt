@@ -35,7 +35,27 @@ public class SharedRoom extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                Map<String, Object> docData = new HashMap<>();
+                docData.put("Sharedtype","shared");
+                docData.put("roomtype", "private");
+                docData.put("specifications","smoker");
+                docData.put("specifications","vegitarian");
 
+                db.collection("sample").document()
+                        .set(docData)
+                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void aVoid) {
+                                Log.d("TEST", "DocumentSnapshot successfully written!");
+                            }
+                        })
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Log.w("TEST", "Error writing document", e);
+                                return;
+                            }
+                        });
 
 
 
