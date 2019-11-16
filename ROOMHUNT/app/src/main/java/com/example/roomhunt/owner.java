@@ -64,8 +64,8 @@ public class owner extends AppCompatActivity {
         pr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, PrivateRoom.class);
-                startActivity(intent);
+                Intent i= new Intent(context, PrivateRoom.class);
+                startActivity(i);
             }
         });
     }
