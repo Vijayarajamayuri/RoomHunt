@@ -1,4 +1,4 @@
-# RoomHunt
+﻿# RoomHunt
 Andriod Project
 Introduction (or) Problem/Issue:
 Room Hunt is regarding the availability of rooms in Horizons West Apartment for Northwest Missouri State University Students according to their preferences and for who wish to fill their vacancies.
@@ -18,7 +18,7 @@ Contributions:
 <li>
  
  Activities Involved:
-Home Page: Home page consists of app logo and a button "Get Started" with directs to the login activity.
+Home Page: Home page consists of app logo and a button "Get Started" which directs to the login activity.
 
 Login Activity: After the home,we come across login and new users can register with application regarding room information and if the registered user forgets the password  he/she can click the “forgot password” redirecting to another activity  where user can reset password by entering recovery “Email ID” and by clicking the “Reset Password” the link is send to respective email ID.Then,after resetting the password we can go back to login page.The credentials for the Login activity can be stored in the firebase.Some tests credentials for the login page is-(mail=avrmayuri741@gmail.com,Password=12345678)or you can register and enter your own credentials
 
@@ -84,5 +84,5 @@ The feedback page is opened after every activity’s final click of “Apply” 
 
 
 Database Requirements:
-For this project we are using firebase a cloud storing database which stores all information reagarding the users and tenants 
+For this project we are using firebase a cloud storing database which stores all information reagarding the users and tenants and it also reterives the data which is stored in the database regarding the room information.
   
