@@ -16,16 +16,20 @@ Team Members:
   </ol>
 Contributions:
 <li>
-  Bhavani ,Pathuri
-  </li>-Works with login activity of user page and owner page
-  <li> Farheen,Mohammad 
-  </li>-Works with the list of Blocks and Block in detail with rooms
-  <li>Vijaya Raja Mayuri, Akula 
-  </li>-Works With user login,forgot password and creating new user account,Shared room and private room  
-  <li>Satish,Hiru Gadge
-  </li>- Works with Workspace xml
+ 
  Activities Involved:
- Login Activity: The first page is login and new users can sign up regarding room information and if the registered user forgets the password  he/she can click the “forgot password” redirecting to another activity called “trouble Logging in” where user can reset password by entering recovery “Email ID” or “phone number” and by clicking the “send login link” the link is send to respective email ID or phone number.Then,after resetting the password we can go back to login page
+Home Page: Home page consists of app logo and a button "Get Started" with directs to the login activity.
+
+Login Activity: After the home,we come across login and new users can register with application regarding room information and if the registered user forgets the password  he/she can click the “forgot password” redirecting to another activity  where user can reset password by entering recovery “Email ID” and by clicking the “Reset Password” the link is send to respective email ID.Then,after resetting the password we can go back to login page.The credentials for the Login activity can be stored in the firebase.Some tests credentials for the login page is-(mail=avrmayuri741@gmail.com,Password=12345678)or you can register and enter your own credentials
+
+Registration page:The registration activity is directed by clicking "create account"textview and user can register by entering the full name,email,password,phone and can register.The user once registered can go back and login with the given credentials
+
+Owner Login:The Owner of the page can login by clicking the owner login button and enter the credentials.As the owner is the only 4 users and the credentials are fixed and predefined UserName:Admin Password:123456.If the user enters the wrong password it shows the number of attemps left.
+After Logging in the user can select the type of the room and type of the share and any specifications and all the information is stored in the firebase with all the information they selected is stored in the collection sample.
+The firebase database consists of two databases sample and tenants where sample is for the users and tenants is for the people who are already staying in the apartment.
+
+
+
  
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/1.PNG)
  
@@ -38,7 +42,6 @@ Contributions:
    
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/4.PNG)
  
-Owner Login: In the Homepage by clicking the “Owner Login” the activity gets directed to “Owner Login” activity where the owner needs to provide the credentials and get logged in. By clicking on Login in owner activity the “Details” tabbed activity is redirected. The necessary information is filled accordingly and updated to the database. This info i have used accordingly.
 
 
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/5.PNG)
@@ -51,7 +54,7 @@ Owner Login: In the Homepage by clicking the “Owner Login” the activity gets
   
  
  
-Firstly, When the user signup and login to the page it will be redirected to the Horizons West Apartment page. By selecting “Availability” ,a tabbed activity named “Availability” is opened which specifies total no.of rooms available,no.of shared rooms available and no.of private rooms available.We get all this information which is stored in the database that is uploaded to cloud.
+
 
 
 
@@ -81,10 +84,5 @@ The feedback page is opened after every activity’s final click of “Apply” 
 
 
 Database Requirements:
-The data uploaded by the owner like number of vacancies, apartment number, type of room and user responses like selecting room are stored into cloud database  like firebase .The authentication is done by firebase.
-
-
-We are collectively working on roomhunt application.This is the application in which users can register,search and apply for the rooms according to their specifications even from the remote location.Once the user opens the roomhunt website,gets started and logins to the application . 
-
-  
+For this project we are using firebase a cloud storing database which stores all information reagarding the users and tenants 
   
