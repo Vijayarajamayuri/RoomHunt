@@ -14,11 +14,11 @@ public class Specications extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_specications);
-        addListenerOnButton1();
+        addListenerOnButton0();
 
 
     }
-    private void addListenerOnButton1() {
+    private void addListenerOnButton0() {
         final Context context = this;
         Button feedback = findViewById(R.id.button13);
         feedback.setOnClickListener(new View.OnClickListener() {

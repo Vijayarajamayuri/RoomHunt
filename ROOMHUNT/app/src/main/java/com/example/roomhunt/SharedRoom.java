@@ -82,8 +82,6 @@ public class SharedRoom extends AppCompatActivity {
             @Override
 
             public void onClick(View view) {
-
-
                 Intent intent = new Intent(context, Specications.class);
                 startActivity(intent);
 
