@@ -26,6 +26,7 @@ public class SharedRoom extends AppCompatActivity {
         setContentView(R.layout.activity_shared_room);
         addListenerOnButton1();
         addListenerOnButton2();
+        addListenerOnButton3();
 
     }
 
@@ -74,9 +75,24 @@ public class SharedRoom extends AppCompatActivity {
         });
 
             }
+    private void addListenerOnButton3() {
+        final Context context = this;
+        Button other = findViewById(R.id.Other);
+        other.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
 
 
+                Intent intent = new Intent(context, Specications.class);
+                startActivity(intent);
+
+            }
+        });
     }
+}
+
+    
 
 
 
