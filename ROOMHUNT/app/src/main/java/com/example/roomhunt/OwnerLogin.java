@@ -28,8 +28,8 @@ public class OwnerLogin extends AppCompatActivity {
         block.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(context, Blocks.class);
-                startActivity(in);
+                Intent intent = new Intent(context, Blocks.class);
+                startActivity(intent);
             }
         });
     }
@@ -81,8 +81,8 @@ public class OwnerLogin extends AppCompatActivity {
     }
     public void addListenerOnButton5() {
         final Context context = this;
-        Button bf = findViewById(R.id.button27);
-        bf.setOnClickListener(new View.OnClickListener() {
+        Button buffer = findViewById(R.id.button27);
+        buffer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent(context, Blockf.class);
