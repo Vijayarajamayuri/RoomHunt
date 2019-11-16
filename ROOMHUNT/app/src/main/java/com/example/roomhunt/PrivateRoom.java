@@ -23,11 +23,11 @@ public class PrivateRoom extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_private_room);
-        addListenerOnButton0();
         addListenerOnButton1();
         addListenerOnButton2();
+        addListenerOnButton3();
     }
-    private void addListenerOnButton0() {
+    private void addListenerOnButton1() {
         final Context context = this;
         Button other = findViewById(R.id.button16);
         other.setOnClickListener(new View.OnClickListener() {
@@ -58,7 +58,7 @@ public class PrivateRoom extends AppCompatActivity {
             }
         });
     }
-    private void addListenerOnButton1() {
+    private void addListenerOnButton2() {
         final Context context = this;
         Button other = findViewById(R.id.button15);
         other.setOnClickListener(new View.OnClickListener() {
@@ -88,7 +88,7 @@ public class PrivateRoom extends AppCompatActivity {
             }
         });
     }
-    private void addListenerOnButton2() {
+    private void addListenerOnButton3() {
         final Context context = this;
         Button other = findViewById(R.id.single);
         other.setOnClickListener(new View.OnClickListener() {
