@@ -68,8 +68,8 @@ public class SharedRoom extends AppCompatActivity {
         DoubleRoom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context1, Feedback.class);
-                startActivity(intent);
+                Intent i = new Intent(context1, Feedback.class);
+                startActivity(i);
 
             }
         });

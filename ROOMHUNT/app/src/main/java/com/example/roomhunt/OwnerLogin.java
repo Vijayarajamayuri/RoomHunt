@@ -28,8 +28,8 @@ public class OwnerLogin extends AppCompatActivity {
         block.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, Blocks.class);
-                startActivity(intent);
+                Intent i = new Intent(context, Blocks.class);
+                startActivity(i);
             }
         });
     }
