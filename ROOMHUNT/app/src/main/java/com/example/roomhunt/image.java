@@ -36,8 +36,8 @@ public class image extends AppCompatActivity{
         pr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, PrivateRoom.class);
-                startActivity(intent);
+                Intent intnt = new Intent(context, PrivateRoom.class);
+                startActivity(intnt);
             }
         });
     }
