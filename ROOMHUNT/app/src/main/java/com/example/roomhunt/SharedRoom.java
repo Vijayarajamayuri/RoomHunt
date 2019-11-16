@@ -25,7 +25,8 @@ public class SharedRoom extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shared_room);
         addListenerOnButton1();
-        
+        addListenerOnButton2();
+
     }
 
     private void addListenerOnButton1() {
@@ -60,7 +61,23 @@ public class SharedRoom extends AppCompatActivity {
             }
         });
     }
-}
+    public void addListenerOnButton2(){
+        final Context context1 = this;
+        Button DoubleRoom = findViewById(R.id.DoubleRoom);
+        DoubleRoom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context1, Feedback.class);
+                startActivity(intent);
+
+            }
+        });
+
+            }
+
+
+    }
+
 
 
 
