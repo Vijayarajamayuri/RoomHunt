@@ -47,13 +47,17 @@ The firebase database consists of two databases sample and tenants where sample 
    
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/4.PNG)
  
-  Forgot password
+ Forgot password
+ 
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/9.PNG)
+   
 Owner Page
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/5.PNG)
+ 
 Home page after Owner Login
 
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/6.PNG)
+ 
   Apt info
  
  
@@ -70,10 +74,12 @@ By selecting the shared room in the above tabbed activity another activity calle
 
 
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/10.PNG)
+ 
    
 ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/11.PNG)
 
 By selecting the Private Room the tabbed activity named “Private Room” is opened which consists of Single, Double and other specification
+
 
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/12.PNG)
 
@@ -82,7 +88,9 @@ By applying to other another activity named “other” is opened where user can
 
 
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/13.PNG)
+   
    Specifications 
+   
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/14.PNG)
 
 
