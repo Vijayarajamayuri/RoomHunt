@@ -67,7 +67,29 @@ public class SharedRoom extends AppCompatActivity {
         Button DoubleRoom = findViewById(R.id.DoubleRoom);
         DoubleRoom.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+
+                public void onClick(View view) {
+                    Map<String, Object> docData = new HashMap<>();
+                    docData.put("Sharedtype", "shared");
+                    docData.put("roomtype", "private");
+                    docData.put("specifications", "smoker");
+                    docData.put("specifications", "vegitarian");
+                    db.collection("sample").document()
+                            .set(docData)
+                            .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                @Override
+                                public void onSuccess(Void aVoid) {
+                                    Log.d("TEST", "DocumentSnapshot successfully written!");
+                                }
+                            })
+                            .addOnFailureListener(new OnFailureListener() {
+                                @Override
+                                public void onFailure(@NonNull Exception e) {
+                                    Log.w("TEST", "Error writing document", e);
+                                    return;
+
+                                }
+                            });
                 Intent i = new Intent(context1, Feedback.class);
                 startActivity(i);
 
@@ -80,8 +102,28 @@ public class SharedRoom extends AppCompatActivity {
         Button other = findViewById(R.id.Other);
         other.setOnClickListener(new View.OnClickListener() {
             @Override
-
             public void onClick(View view) {
+                Map<String, Object> docData = new HashMap<>();
+                docData.put("Sharedtype", "shared");
+                docData.put("roomtype", "private");
+                docData.put("specifications", "smoker");
+                docData.put("specifications", "vegitarian");
+                db.collection("sample").document()
+                        .set(docData)
+                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void aVoid) {
+                                Log.d("TEST", "DocumentSnapshot successfully written!");
+                            }
+                        })
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Log.w("TEST", "Error writing document", e);
+                                return;
+
+                            }
+                        });
                 Intent intent = new Intent(context, Specications.class);
                 startActivity(intent);
 
