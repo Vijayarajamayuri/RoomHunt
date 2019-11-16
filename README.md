@@ -7,6 +7,10 @@ Room Hunt is regarding the availability of rooms in Horizons West Apartment for 
 <li>	Save Energy: Manual presence is not required. You can access it from anywhere.</li>
 <li>  Flexibility: No time limitations, 24/7 access.
   </ul>
+  
+   
+ ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/1.PNG)
+ 
 Team Members:
 <ol>
   <li>	Vijaya Raja Mayuri, Akula </li>
@@ -30,41 +34,44 @@ The firebase database consists of two databases sample and tenants where sample 
 
 
 
- 
- ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/1.PNG)
- 
+  Home page
  
   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/2.PNG)
   
+  Login Page
+  
   
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/3.PNG)
+   Home page after Login
    
    
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/4.PNG)
  
-
-
+  Forgot password
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/9.PNG)
+Owner Page
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/5.PNG)
-
+Home page after Owner Login
 
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/6.PNG)
+  Apt info
  
  
   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/7.PNG)
   
- 
+ Clicking the apt pops 
  
 
-
+![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/8.PNG)
 
 
 By selecting the shared room in the above tabbed activity another activity called “Shared Room” Is opened as below :
 
-![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/8.PNG)
-![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/9.PNG)
+
+
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/10.PNG)
    
-
+![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/11.PNG)
 
 By selecting the Private Room the tabbed activity named “Private Room” is opened which consists of Single, Double and other specification
 
@@ -75,12 +82,14 @@ By applying to other another activity named “other” is opened where user can
 
 
    ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/13.PNG)
+   Specifications 
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/14.PNG)
 
 
 The feedback page is opened after every activity’s final click of “Apply” is clicked. For more queries the user can contact to specified email id.
 
 
-   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/11.PNG)
+   ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/15.PNG)
 
 
 Database Requirements:
