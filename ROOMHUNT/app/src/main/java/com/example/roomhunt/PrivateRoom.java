@@ -83,8 +83,8 @@ public class PrivateRoom extends AppCompatActivity {
                                 return;
                             }
                         });
-                Intent intent = new Intent(context, Feedback.class);
-                startActivity(intent);
+                Intent i = new Intent(context, Feedback.class);
+                startActivity(i);
             }
         });
     }
@@ -114,8 +114,8 @@ public class PrivateRoom extends AppCompatActivity {
                                 return;
                             }
                         });
-                Intent intent = new Intent(context, Specications.class);
-                startActivity(intent);
+                Intent i = new Intent(context, Specications.class);
+                startActivity(i);
             }
         });
     }
