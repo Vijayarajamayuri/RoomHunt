@@ -47,8 +47,8 @@ public class owner extends AppCompatActivity {
 
     private void validate(String userName,String Password){
         if((userName.equals("Admin"))&&(Password.equals("1234"))) {
-            Intent intnt = new Intent(owner.this,OwnerLogin.class);
-            startActivity(intnt);
+            Intent i = new Intent(owner.this,OwnerLogin.class);
+            startActivity(i);
         }
         else{
             Counter--;

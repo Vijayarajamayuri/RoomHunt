@@ -57,8 +57,8 @@ public class SharedRoom extends AppCompatActivity {
 
                             }
                         });
-                Intent intent = new Intent(cont, Feedback.class);
-                startActivity(intent);
+                Intent i = new Intent(cont, Feedback.class);
+                startActivity(i);
             }
         });
     }
