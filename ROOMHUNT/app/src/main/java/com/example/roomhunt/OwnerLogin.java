@@ -14,27 +14,27 @@ public class OwnerLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_owner_login2);
+        addListenerOnButton0();
+        addListenerOnButton1();
         addListenerOnButton2();
         addListenerOnButton3();
         addListenerOnButton4();
         addListenerOnButton5();
-        addListenerOnButton6();
-        addListenerOnButton7();
     }
 
-    private void addListenerOnButton2() {
+    private void addListenerOnButton0() {
         final Context context = this;
         Button block = findViewById(R.id.button19);
         block.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(context, Blocks.class);
-                startActivity(in);
+                Intent i = new Intent(context, Blocks.class);
+                startActivity(i);
             }
         });
     }
 
-    public void addListenerOnButton3() {
+    public void addListenerOnButton1() {
         final Context context = this;
         Button blockB = findViewById(R.id.button20);
         blockB.setOnClickListener(new View.OnClickListener() {
@@ -46,7 +46,7 @@ public class OwnerLogin extends AppCompatActivity {
         });
     }
 
-    public void addListenerOnButton4() {
+    public void addListenerOnButton2() {
         final Context context = this;
         Button blockB = findViewById(R.id.button21);
         blockB.setOnClickListener(new View.OnClickListener() {
@@ -57,7 +57,7 @@ public class OwnerLogin extends AppCompatActivity {
             }
         });
     }
-    public void addListenerOnButton5() {
+    public void addListenerOnButton3() {
         final Context context = this;
         Button bd = findViewById(R.id.button22);
         bd.setOnClickListener(new View.OnClickListener() {
@@ -68,7 +68,7 @@ public class OwnerLogin extends AppCompatActivity {
             }
         });
     }
-    public void addListenerOnButton6() {
+    public void addListenerOnButton4() {
         final Context context = this;
         Button be = findViewById(R.id.button18);
         be.setOnClickListener(new View.OnClickListener() {
@@ -79,10 +79,10 @@ public class OwnerLogin extends AppCompatActivity {
             }
         });
     }
-    public void addListenerOnButton7() {
+    public void addListenerOnButton5() {
         final Context context = this;
-        Button bf = findViewById(R.id.button27);
-        bf.setOnClickListener(new View.OnClickListener() {
+        Button buffer = findViewById(R.id.button27);
+        buffer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent(context, Blockf.class);

@@ -47,8 +47,8 @@ public class owner extends AppCompatActivity {
 
     private void validate(String userName,String Password){
         if((userName.equals("Admin"))&&(Password.equals("123456"))) {
-            Intent intent = new Intent(owner.this,OwnerLogin.class);
-            startActivity(intent);
+            Intent i = new Intent(owner.this,OwnerLogin.class);
+            startActivity(i);
         }
         else{
             Counter--;
@@ -64,8 +64,8 @@ public class owner extends AppCompatActivity {
         pr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, PrivateRoom.class);
-                startActivity(intent);
+                Intent i= new Intent(context, PrivateRoom.class);
+                startActivity(i);
             }
         });
     }

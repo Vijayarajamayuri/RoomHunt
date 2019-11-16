@@ -14,9 +14,9 @@ public class Availability extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_availability);
-        addListenerOnButton();
+        addListenerOnButton1();
     }
-    private void addListenerOnButton() {
+    private void addListenerOnButton1() {
         final Context context = this;
         Button availble = findViewById(R.id.button9);
         availble.setOnClickListener(new View.OnClickListener() {

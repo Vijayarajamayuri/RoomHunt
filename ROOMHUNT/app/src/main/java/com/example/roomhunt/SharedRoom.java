@@ -27,20 +27,20 @@ public class SharedRoom extends AppCompatActivity {
         addListenerOnButton1();
         addListenerOnButton2();
         addListenerOnButton3();
+
     }
+
     private void addListenerOnButton1() {
-        final Context context = this;
-        Button Single= findViewById(R.id.single);
-        Single.setOnClickListener(new View.OnClickListener() {
+        final Context cont = this;
+        Button single = findViewById(R.id.single);
+        single.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Map<String, Object> docData = new HashMap<>();
-                docData.put("Sharedtype","shared");
+                docData.put("Sharedtype", "shared");
                 docData.put("roomtype", "private");
-                docData.put("specifications","smoker");
-                docData.put("specifications","vegitarian");
-
+                docData.put("specifications", "smoker");
+                docData.put("specifications", "vegitarian");
                 db.collection("sample").document()
                         .set(docData)
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -54,43 +54,46 @@ public class SharedRoom extends AppCompatActivity {
                             public void onFailure(@NonNull Exception e) {
                                 Log.w("TEST", "Error writing document", e);
                                 return;
+
                             }
                         });
-
-
-
-                    Intent intent = new Intent(context, Feedback.class);
-                startActivity(intent);
+                Intent i = new Intent(cont, Feedback.class);
+                startActivity(i);
             }
         });
     }
-    private void addListenerOnButton2() {
-        final Context context = this;
+    public void addListenerOnButton2(){
+        final Context context1 = this;
         Button DoubleRoom = findViewById(R.id.DoubleRoom);
         DoubleRoom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent i = new Intent(context1, Feedback.class);
+                startActivity(i);
 
-
-
-                    Intent intent = new Intent(context, Feedback.class);
-                startActivity(intent);
             }
         });
-    }
+
+            }
     private void addListenerOnButton3() {
         final Context context = this;
         Button other = findViewById(R.id.Other);
         other.setOnClickListener(new View.OnClickListener() {
             @Override
 
-                    public void onClick(View view) {
-
-
-                        Intent intent = new Intent(context, Specications.class);
-                        startActivity(intent);
+            public void onClick(View view) {
+                Intent intent = new Intent(context, Specications.class);
+                startActivity(intent);
 
             }
         });
     }
 }
+
+
+
+
+
+
+
+

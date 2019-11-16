@@ -15,10 +15,10 @@ public class image extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image);
-        addListenerOnButton6();
-        addListenerOnButton7();
+        addListenerOnButton1();
+        addListenerOnButton2();
     }
-    private void addListenerOnButton6() {
+    private void addListenerOnButton1() {
         final Context context = this;
         Button sr = findViewById(R.id.button11);
         sr.setOnClickListener(new View.OnClickListener() {
@@ -30,14 +30,14 @@ public class image extends AppCompatActivity{
         });
     }
 
-    private void addListenerOnButton7() {
+    private void addListenerOnButton2() {
         final Context context = this;
         Button pr = findViewById(R.id.button10);
         pr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, PrivateRoom.class);
-                startActivity(intent);
+                Intent intnt = new Intent(context, PrivateRoom.class);
+                startActivity(intnt);
             }
         });
     }
