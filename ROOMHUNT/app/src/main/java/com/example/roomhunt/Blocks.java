@@ -36,8 +36,8 @@ public class Blocks extends AppCompatActivity {
             public void onClick(View view) {
 
 
-                Intent intent = new Intent(context, Apt1.class);
-                startActivity(intent);
+                Intent intnt = new Intent(context, Apt1.class);
+                startActivity(intnt);
             }
         });
     }
