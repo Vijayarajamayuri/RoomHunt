@@ -27,16 +27,17 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/bungee"
         android:text="No.of Rooms"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.291"
+        app:layout_constraintVertical_bias="0.307"
         tools:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/numberRoomsTV"
         android:layout_width="59dp"
         android:layout_height="39dp"
         android:fontFamily="@font/bungee"
@@ -44,10 +45,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.296" />
+        app:layout_constraintVertical_bias="0.312" />
 
     <TextView
         android:id="@+id/textView26"
@@ -55,16 +56,17 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/bungee"
         android:text="shared"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408"
+        app:layout_constraintVertical_bias="0.406"
         tools:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/sharedTV"
         android:layout_width="47dp"
         android:layout_height="44dp"
         android:fontFamily="@font/bungee"
@@ -72,10 +74,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintHorizontal_bias="0.706"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.417" />
+        app:layout_constraintVertical_bias="0.416" />
 
     <TextView
         android:id="@+id/textView28"
@@ -86,13 +88,13 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.319"
+        app:layout_constraintHorizontal_bias="0.094"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.525" />
+        app:layout_constraintVertical_bias="0.536" />
 
     <TextView
-        android:id="@+id/textView29"
+        android:id="@+id/privateTV"
         android:layout_width="51dp"
         android:layout_height="63dp"
         android:fontFamily="@font/bungee"
@@ -100,10 +102,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.713"
+        app:layout_constraintHorizontal_bias="0.683"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542" />
+        app:layout_constraintVertical_bias="0.541" />
 
     <Button
         android:id="@+id/button9"

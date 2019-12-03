@@ -1,7 +1,6 @@
 package com.example.roomhunt;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -40,7 +39,7 @@ public class Login extends AppCompatActivity {
         mLoginBtn = findViewById(R.id.loginBtn);
         mCreateBtn = findViewById(R.id.createText);
         owner=findViewById(R.id.button2);
-        ForgotPassword=findViewById(R.id.button3);
+        ForgotPassword=findViewById(R.id.Apt3);
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
