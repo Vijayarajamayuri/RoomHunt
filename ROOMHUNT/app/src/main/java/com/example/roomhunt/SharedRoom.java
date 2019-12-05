@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -19,7 +20,7 @@ import java.util.Map;
 
 public class SharedRoom extends AppCompatActivity {
     FirebaseFirestore db = FirebaseFirestore.getInstance();
-
+    String specs ="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -98,38 +99,21 @@ public class SharedRoom extends AppCompatActivity {
 
             }
     private void addListenerOnButton3() {
+
         final Context context = this;
         Button other = findViewById(R.id.Other);
         other.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Map<String, Object> docData = new HashMap<>();
-                docData.put("Sharedtype", "shared");
-                docData.put("roomtype", "private");
-                docData.put("specifications", "smoker");
-                docData.put("specifications", "vegitarian");
-                db.collection("sample").document()
-                        .set(docData)
-                        .addOnSuccessListener(new OnSuccessListener<Void>() {
-                            @Override
-                            public void onSuccess(Void aVoid) {
-                                Log.d("TEST", "DocumentSnapshot successfully written!");
-                            }
-                        })
-                        .addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                Log.w("TEST", "Error writing document", e);
-                                return;
 
-                            }
-                        });
                 Intent intent = new Intent(context, Specications.class);
                 startActivity(intent);
 
             }
         });
     }
+
+
 }
 
 

@@ -30,6 +30,7 @@ public class OwnerLogin extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(context, Blocks.class);
                 startActivity(i);
+
             }
         });
     }
