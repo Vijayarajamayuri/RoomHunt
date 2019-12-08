@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/common_google_signin_btn_text_light_focused"
+    android:background="@color/common_google_signin_btn_text_dark_default"
     tools:context=".Feedback">
 
     <TextView
@@ -13,14 +13,14 @@
         android:layout_height="61dp"
         android:fontFamily="@font/bungee"
         android:text="Thank you for your interest"
-        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.201" />
+        app:layout_constraintVertical_bias="0.167" />
 
     <ImageView
         android:id="@+id/imageView"
