@@ -19,6 +19,7 @@ import java.util.Map;
 
 public class PrivateRoom extends AppCompatActivity {
     FirebaseFirestore db = FirebaseFirestore.getInstance();
+    String specs ="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,8 +35,9 @@ public class PrivateRoom extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Map<String, Object> docData = new HashMap<>();
-                docData.put("roomtype", "OTHER");
-                docData.put("specifications","smoker");
+                docData.put("roomtype", "private");
+                docData.put("share","single");
+
 
                 db.collection("sample").document("one")
                         .set(docData)
@@ -66,7 +68,9 @@ public class PrivateRoom extends AppCompatActivity {
             public void onClick(View view) {
 
                 Map<String, Object> docData = new HashMap<>();
-                docData.put("roomtype", "SINGLE");
+                docData.put("roomtype", "private");
+                docData.put("share","double");
+
 
                 db.collection("sample").document("one")
                         .set(docData)
@@ -90,32 +94,14 @@ public class PrivateRoom extends AppCompatActivity {
     }
     private void addListenerOnButton4() {
         final Context context = this;
-        Button other = findViewById(R.id.single);
+        Button other = findViewById(R.id.otherbutton);
         other.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Map<String, Object> docData = new HashMap<>();
-                docData.put("roomtype", "DOUBLE");
-                docData.put("specifications","smoker");
+                Intent intent = new Intent(context, Specications.class);
+                startActivity(intent);
 
-                db.collection("sample").document()
-                        .set(docData)
-                        .addOnSuccessListener(new OnSuccessListener<Void>() {
-                            @Override
-                            public void onSuccess(Void aVoid) {
-                                Log.d("TEST", "DocumentSnapshot successfully written!");
-                            }
-                        })
-                        .addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                Log.w("TEST", "Error writing document", e);
-                                return;
-                            }
-                        });
-                Intent i = new Intent(context, Specications.class);
-                startActivity(i);
             }
         });
     }

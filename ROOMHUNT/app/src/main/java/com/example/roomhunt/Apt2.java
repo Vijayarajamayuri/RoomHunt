@@ -36,10 +36,11 @@ public class Apt2 extends AppCompatActivity {
                     DocumentSnapshot document = task.getResult();
                     if (document.exists()) {
                         nameTV1.setText(document.getString("Tenant Name"));
-                        emailTV1.setText(document.getString("Email"));
+                        emailTV1.setText(document.getString("EmailId"));
                         Gender1.setText(document.getString("Gender"));
                         Phone_number1.setText(document.getString("Phone number"));
-                        TypeofroomShared1.setText(document.getString("Type of room shared"));
+                        TypeofroomShared1.setText(document.getString("Single/Double "));
+
                         Toast.makeText(Apt2.this, document.getString("Email") + " " + document.getString("Specifications"), Toast.LENGTH_SHORT).show();
                         Log.d("", "DocumentSnapshot data: " + document.getData());
                     } else {

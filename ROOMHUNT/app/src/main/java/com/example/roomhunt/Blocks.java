@@ -63,16 +63,16 @@ public class Blocks extends AppCompatActivity {
         });
         DocumentReference docRef3 = db.collection("Tenant").document("Apt3");
         DocumentReference docRef5 = db.collection("Tenant").document("Apt2");
-
+ //apt3
         docRef3.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                 if (task.isSuccessful()) {
                     DocumentSnapshot document = task.getResult();
                     if (document.exists()) {
-                        if (document.getBoolean("Availability") == true) {
+                        if (document.getBoolean("Availability") == false) {
                             Button Apt3 = findViewById(R.id.Apt3);
-                            Apt3.setBackgroundColor(Color.parseColor("#00ff00"));
+                            Apt3.setBackgroundColor(Color.parseColor("#ff0000"));
                         } else {
                             Button Apt3 = findViewById(R.id.Apt3);
                             Apt3.setBackgroundColor(Color.parseColor("#ff0000"));
@@ -133,6 +133,26 @@ public class Blocks extends AppCompatActivity {
 
         Button Apt3 = findViewById(R.id.Apt3);
         Apt3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(Blocks.this);
+
+                builder.setCancelable(true);
+                builder.setTitle("Sorry!This Apartment is currently filled");
+                builder.setMessage("Try to see the other availabilities");
+
+                builder.setNegativeButton("Ok!", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.cancel();
+                    }
+                });
+
+                builder.show();
+            }
+        });
+        Button Apt4= findViewById(R.id.Apt4);
+        Apt4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(Blocks.this);

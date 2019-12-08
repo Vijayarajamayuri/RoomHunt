@@ -49,18 +49,18 @@ public class Specications extends AppCompatActivity {
         if(Smoker.isChecked()) smoker =0;
         if(extreme.isChecked()){
             ocd =1;
-            specs+= "OCD ";
+            specs += "OCD ";
         }
         if(moderate.isChecked()) ocd =0;
         if(veg.isChecked()){
             vegetarian =1;
-            specs+="VEG ";
+            specs +="VEG ";
         }
         if(nonveg.isChecked()) vegetarian =0;
 
         Map<String, Object> docData = new HashMap<>();
         docData.put("Sharedtype", "shared");
-        docData.put("roomtype", "private");
+
 
         docData.put("specifications", specs);
         db.collection("sample").document()

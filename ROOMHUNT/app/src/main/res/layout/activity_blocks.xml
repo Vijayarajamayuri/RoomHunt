@@ -56,7 +56,7 @@
             app:layout_row="0" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/Apt4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@android:color/holo_red_dark"

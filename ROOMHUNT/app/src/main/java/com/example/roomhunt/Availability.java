@@ -25,11 +25,7 @@ public class Availability extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_availability);
 
-        TextView numberRoomsTV = findViewById(R.id.numberRoomsTV);
-        TextView sharedTV = findViewById(R.id.sharedTV);
-        TextView privateTV = findViewById(R.id.privateTV);
         // Retrievedata
         DocumentReference docRef = db.collection("Tenant").document("two");
         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
@@ -48,9 +44,7 @@ public class Availability extends AppCompatActivity {
                 }
             }
         });
-        numberRoomsTV.setText("");
-        sharedTV.setText("");
-        privateTV.setText("");
+
 
         addListenerOnButton1();
     }
