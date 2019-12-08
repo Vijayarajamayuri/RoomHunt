@@ -101,6 +101,6 @@ The feedback page is opened after every activity’s final click of “Apply” 
  ![ favorite image.](https://github.com/Vijayarajamayuri/RoomHunt/blob/master/15.PNG)
 
 
-Database Requirements:
+Persisted Data: -(Database Requirements)
 For this project we are using firebase a cloud storing database which stores all information reagarding the users and tenants and it also reterives the data which is stored in the database regarding the room information.
   
