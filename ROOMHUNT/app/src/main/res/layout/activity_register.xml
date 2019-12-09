@@ -25,7 +25,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
 
         android:text="Create New Account"
         android:textColor="@color/common_google_signin_btn_text_light_pressed"
