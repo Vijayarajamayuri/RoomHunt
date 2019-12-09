@@ -44,7 +44,17 @@ public class Availability extends AppCompatActivity {
                 }
             }
         });
-
-
+        addListenerOnButton1();
+    }
+    private void addListenerOnButton1() {
+        final Context context = this;
+        Button available = findViewById(R.id.button9);
+        available.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, image.class);
+                startActivity(intent);
+            }
+        });
     }
 }
