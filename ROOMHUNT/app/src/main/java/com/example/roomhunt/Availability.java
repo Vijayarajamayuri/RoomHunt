@@ -31,7 +31,7 @@ public class Availability extends AppCompatActivity {
         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-                if (task.isSuccessful()){
+                if (task.isSuccessful()) {
                     DocumentSnapshot document = task.getResult();
                     if (document.exists()) {
 
@@ -46,17 +46,5 @@ public class Availability extends AppCompatActivity {
         });
 
 
-        addListenerOnButton1();
-    }
-    private void addListenerOnButton1() {
-        final Context context = this;
-        Button available = findViewById(R.id.button9);
-        available.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, image.class);
-                startActivity(intent);
-            }
-        });
     }
 }
