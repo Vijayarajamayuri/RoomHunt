@@ -15,7 +15,6 @@ public class OwnerLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_owner_login2);
         addListenerOnButton0();
-        addListenerOnButton1();
         addListenerOnButton2();
         addListenerOnButton3();
         addListenerOnButton4();
@@ -35,17 +34,7 @@ public class OwnerLogin extends AppCompatActivity {
         });
     }
 
-    public void addListenerOnButton1() {
-        final Context context = this;
-        Button blockB = findViewById(R.id.button20);
-        blockB.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(context, BlockB.class);
-                startActivity(i);
-            }
-        });
-    }
+
 
     public void addListenerOnButton2() {
         final Context context = this;
