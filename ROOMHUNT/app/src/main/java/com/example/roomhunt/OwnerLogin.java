@@ -19,7 +19,7 @@ public class OwnerLogin extends AppCompatActivity {
         addListenerOnButton2();
         addListenerOnButton3();
         addListenerOnButton4();
-        addListenerOnButton5();
+        
     }
 
     private void addListenerOnButton0() {
@@ -53,43 +53,33 @@ public class OwnerLogin extends AppCompatActivity {
         blockB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(context, BlockC.class);
-                startActivity( intent);
+                Intent intent = new Intent(context, BlockC.class);
+                startActivity(intent);
             }
         });
     }
+
     public void addListenerOnButton3() {
         final Context context = this;
         Button bd = findViewById(R.id.button22);
         bd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(context, Blockd.class);
-                startActivity( intent);
+                Intent intent = new Intent(context, Blockd.class);
+                startActivity(intent);
             }
         });
     }
+
     public void addListenerOnButton4() {
         final Context context = this;
         Button be = findViewById(R.id.button18);
         be.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent =new Intent(context, Blocke.class);
-                startActivity( intent);
-            }
-        });
-    }
-    public void addListenerOnButton5() {
-        final Context context = this;
-        Button buffer = findViewById(R.id.button27);
-        buffer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent =new Intent(context, Blockf.class);
-                startActivity( intent);
+                Intent intent = new Intent(context, Blocke.class);
+                startActivity(intent);
             }
         });
     }
 }
-
