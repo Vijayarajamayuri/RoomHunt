@@ -17,8 +17,8 @@ import com.google.firebase.auth.FirebaseAuth;
 public class ForgotPassword extends AppCompatActivity {
 
     private EditText editEmail;
-    private Button btnResetPass;
-    private Button buttonBack;
+    private Button buttonResetPass;
+    private Button btnBack;
     private FirebaseAuth mAuth;
 
     @Override
@@ -26,10 +26,10 @@ public class ForgotPassword extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password);
         editEmail = (EditText) findViewById(R.id.edt_reset_email);
-        btnResetPass = (Button) findViewById(R.id.btn_reset_password);
-        buttonBack = (Button) findViewById(R.id.btn_back);
+        buttonResetPass = (Button) findViewById(R.id.btn_reset_password);
+        btnBack = (Button) findViewById(R.id.btn_back);
         mAuth = FirebaseAuth.getInstance();
-        btnResetPass.setOnClickListener(new View.OnClickListener() {
+        buttonResetPass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -52,7 +52,7 @@ public class ForgotPassword extends AppCompatActivity {
                         });
             }
         });
-        buttonBack.setOnClickListener(new View.OnClickListener() {
+        btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
