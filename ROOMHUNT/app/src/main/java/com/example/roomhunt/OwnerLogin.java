@@ -19,7 +19,7 @@ public class OwnerLogin extends AppCompatActivity {
         addListenerOnButton2();
         addListenerOnButton3();
         addListenerOnButton4();
-        
+        addListenerOnButton5();
     }
 
     private void addListenerOnButton0() {
@@ -82,4 +82,16 @@ public class OwnerLogin extends AppCompatActivity {
             }
         });
     }
+    public void addListenerOnButton5() {
+        final Context context = this;
+        Button buffer = findViewById(R.id.button27);
+        buffer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(context, Blockf.class);
+                startActivity( intent);
+            }
+        });
+    }
 }
+
