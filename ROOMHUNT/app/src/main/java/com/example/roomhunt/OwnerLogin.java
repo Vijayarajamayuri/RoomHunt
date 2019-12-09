@@ -17,6 +17,7 @@ public class OwnerLogin extends AppCompatActivity {
         addListenerOnButton0();
         addListenerOnButton1();
         addListenerOnButton2();
+        addListenerOnButton3();
         addListenerOnButton4();
         addListenerOnButton5();
     }
@@ -58,7 +59,17 @@ public class OwnerLogin extends AppCompatActivity {
         });
     }
 
-
+    public void addListenerOnButton3() {
+        final Context context = this;
+        Button bd = findViewById(R.id.button22);
+        bd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, Blockd.class);
+                startActivity(intent);
+            }
+        });
+    }
 
     public void addListenerOnButton4() {
         final Context context = this;
