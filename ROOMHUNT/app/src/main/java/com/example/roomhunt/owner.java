@@ -27,7 +27,7 @@ public class owner extends AppCompatActivity {
         Info=(TextView)findViewById(R.id.textView14);
 
 
-        Button ownerlogin = findViewById(R.id.button4);
+        Button ownerlogin = findViewById(R.id.Apt4);
         Info.setText("Enter the login credentials");
 
         ownerlogin.setOnClickListener(new View.OnClickListener() {

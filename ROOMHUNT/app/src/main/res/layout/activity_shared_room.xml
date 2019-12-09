@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/common_google_signin_btn_text_light_focused"
+    android:background="@color/common_google_signin_btn_text_dark_disabled"
     tools:context=".SharedRoom">
 
     <TextView
@@ -50,7 +50,7 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <Button
-        android:id="@+id/single"
+        android:id="@+id/otherbutton"
         android:layout_width="116dp"
         android:layout_height="55dp"
         android:fontFamily="@font/bungee"
@@ -76,6 +76,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.523" />
+
     <TextView
         android:id="@+id/textView37"
         android:layout_width="125dp"
@@ -102,7 +103,6 @@
         app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639"
-    />
+        app:layout_constraintVertical_bias="0.639" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

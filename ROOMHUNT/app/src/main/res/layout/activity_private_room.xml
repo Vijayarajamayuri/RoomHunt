@@ -50,7 +50,7 @@
 
 
     <Button
-        android:id="@+id/single"
+        android:id="@+id/otherbutton"
         android:layout_width="116dp"
         android:layout_height="55dp"
         android:fontFamily="@font/bungee"

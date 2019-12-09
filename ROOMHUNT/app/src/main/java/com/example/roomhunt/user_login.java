@@ -18,7 +18,7 @@ public class user_login extends AppCompatActivity {
         addListenerOnImageButton();
 
 
-        addListenerOnButton();
+       // addListenerOnButton();
 
 
     }
@@ -34,15 +34,5 @@ public class user_login extends AppCompatActivity {
         });
     }
 
-    private void addListenerOnButton() {
-        final Context context = this;
-        Button owner = findViewById(R.id.button8);
-        owner.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(context, Availability.class);
-                startActivity(intent);
-            }
-        });
-    }
+    ////
 }
