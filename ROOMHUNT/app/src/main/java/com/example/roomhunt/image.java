@@ -15,10 +15,10 @@ public class image extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image);
-        addListenerOnButton1();
+        addListenerOnButton0();
         addListenerOnButton2();
     }
-    private void addListenerOnButton1() {
+    private void addListenerOnButton0() {
         final Context context = this;
         Button sr = findViewById(R.id.button11);
         sr.setOnClickListener(new View.OnClickListener() {
