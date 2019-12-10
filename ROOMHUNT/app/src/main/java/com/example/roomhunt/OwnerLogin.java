@@ -61,8 +61,8 @@ public class OwnerLogin extends AppCompatActivity {
 
     public void addListenerOnButton3() {
         final Context context = this;
-        Button b = findViewById(R.id.button22);
-        b.setOnClickListener(new View.OnClickListener() {
+        Button bt = findViewById(R.id.button22);
+        bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, Blockd.class);
