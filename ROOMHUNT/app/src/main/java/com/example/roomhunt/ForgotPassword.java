@@ -33,13 +33,13 @@ public class ForgotPassword extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String em = editEmail.getText().toString().trim();
+                String email = editEmail.getText().toString().trim();
 
-                if (TextUtils.isEmpty(em)) {
+                if (TextUtils.isEmpty(email)) {
                     Toast.makeText(getApplicationContext(), "Enter your email!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                mAuth.sendPasswordResetEmail(em)
+                mAuth.sendPasswordResetEmail(email)
                         .addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
