@@ -24,13 +24,13 @@ public class SharedRoom extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shared_room);
-        addListenerOnButton1();
+        addListenerOnButton0();
         addListenerOnButton2();
         addListenerOnButton3();
 
     }
 
-    private void addListenerOnButton1() {
+    private void addListenerOnButton0() {
         final Context cont = this;
         Button single = findViewById(R.id.otherbutton);
         single.setOnClickListener(new View.OnClickListener() {

@@ -64,7 +64,7 @@ public class Login extends AppCompatActivity {
                 }
 
                 progressBar.setVisibility(View.VISIBLE);
-                
+
 
                 fAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
