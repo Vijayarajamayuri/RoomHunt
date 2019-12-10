@@ -52,8 +52,8 @@ public class Availability extends AppCompatActivity {
         available.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, image.class);
-                startActivity(intent);
+                Intent in = new Intent(context, image.class);
+                startActivity(in);
             }
         });
     }
